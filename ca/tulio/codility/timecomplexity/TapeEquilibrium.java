@@ -1,4 +1,6 @@
-class Solution {
+package ca.tulio.codility.timecomplexity;
+
+class TapeEquilibrium {
     public int solution(int[] A) {
         
         int left = 0;

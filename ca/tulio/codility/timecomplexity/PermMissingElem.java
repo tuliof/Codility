@@ -1,6 +1,8 @@
+package ca.tulio.codility.timecomplexity;
+
 import java.util.Arrays;
 
-class Solution {
+class PermMissingElem {
     public int solution(int[] A) {
         
         if (A.length == 0)

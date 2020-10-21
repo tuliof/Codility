@@ -1,8 +1,10 @@
+package ca.tulio.codility.arrays;
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.stream.Collectors;
 
-class Solution {
+class CyclicRotation {
     public int[] solution(int[] A, int K) {
         // Won't rotate anything if A is empty or if K is zero
         if (A.length == 0 || K == 0)

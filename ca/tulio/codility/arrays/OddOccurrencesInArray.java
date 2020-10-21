@@ -1,4 +1,9 @@
-class Solution {
+package ca.tulio.codility.arrays;
+
+import java.util.HashSet;
+import java.util.Set;
+
+class OddOccurrencesInArray {
     public int solution(int[] A) {
         Set set = new HashSet();
         

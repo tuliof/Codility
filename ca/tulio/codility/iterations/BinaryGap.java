@@ -1,4 +1,6 @@
-class Solution {
+package ca.tulio.codility.iterations;
+
+class BinaryGap {
     public int solution(int N) {
         String binary = Integer.toBinaryString(N);
 
